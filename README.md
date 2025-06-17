@@ -159,7 +159,3 @@
 
 5. **Commit and Push Your Changes:**
     - Save all files and push to your version control system.
-
-## Outcome
-
-You will have built a responsive webpage that adapts gracefully across different screen sizes, using only HTML and CSS. This exercise reinforces how layout and style should adjust depending on viewport width.
