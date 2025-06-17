@@ -1,8 +1,6 @@
 # Web 1 - Responsive Webpage Exercise
 
-## Objective
-
-Create a simple, responsive webpage using basic HTML and CSS. You’ll build a well-structured layout and add your own media queries to make it responsive.
+**Goal:** Create a simple, responsive webpage using basic HTML and CSS. You’ll build a well-structured layout and add your own media queries to make it responsive.
 
 ## Instructions
 
@@ -62,7 +60,6 @@ Create a simple, responsive webpage using basic HTML and CSS. You’ll build a w
     - Create a `styles.css` file and copy the following CSS code:
 
     ```css
-    /* Reset */
     * {
         margin: 0;
         padding: 0;
