@@ -2,7 +2,7 @@
 
 **Goal:** Create a simple, responsive webpage using basic HTML and CSS. You’ll build a well-structured layout and add your own media queries to make it responsive.
 
-## Instructions
+## Instructions ✅
 
 1. **HTML Structure:**
     - Create an `index.html` file and copy the following code into it:
@@ -158,4 +158,3 @@
     - Resize the window and verify your responsive changes work correctly.
 
 5. **Commit and Push Your Changes:**
-    - Save all files and push to your version control system.
