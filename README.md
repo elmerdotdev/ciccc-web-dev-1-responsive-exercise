@@ -2,7 +2,7 @@
 
 ## Objective
 
-Create a simple, responsive webpage using basic HTML and CSS, incorporating multiple elements and styles.
+Create a simple, responsive webpage using basic HTML and CSS. You’ll build a well-structured layout and add your own media queries to make it responsive.
 
 ## Instructions
 
@@ -59,7 +59,7 @@ Create a simple, responsive webpage using basic HTML and CSS, incorporating mult
     ```
 
 2. **CSS Styles:**
-    - Create a `styles.css` file and copy the following code into it:
+    - Create a `styles.css` file and copy the following CSS code:
 
     ```css
     /* Reset */
@@ -69,14 +69,12 @@ Create a simple, responsive webpage using basic HTML and CSS, incorporating mult
         box-sizing: border-box;
     }
 
-    /* Variables (using direct values in CSS) */
     body {
         font-family: Helvetica, sans-serif;
         line-height: 1.6;
         padding: 20px;
     }
 
-    /* Header */
     header {
         background: #3498db;
         color: white;
@@ -99,7 +97,6 @@ Create a simple, responsive webpage using basic HTML and CSS, incorporating mult
         text-decoration: none;
     }
 
-    /* Main Content */
     main {
         margin: 20px 0;
     }
@@ -131,7 +128,6 @@ Create a simple, responsive webpage using basic HTML and CSS, incorporating mult
         text-align: center;
     }
 
-    /* Footer */
     footer {
         background: #333;
         color: white;
@@ -139,45 +135,34 @@ Create a simple, responsive webpage using basic HTML and CSS, incorporating mult
         padding: 10px 0;
         margin-top: 20px;
     }
+    ```
 
-    /* Responsive Design */
+3. **Add Responsive Behavior:**
+    - Now it’s your turn to make the page responsive. Add a media query at the **bottom of your CSS file** that applies when the viewport width is **600px or wider**.
+    - Inside the media query, apply the following changes:
+        - Increase `body` padding to `40px`
+        - Increase padding on the `header` and `footer` to `20px 0`
+        - Set `.intro img` width to `80%` and center it using `margin: 20px auto`
+        - In the `.cards` section:
+            - Use `justify-content: space-around`
+            - Make each `.card` have `flex: 0 0 30%`
+
+    - Example (to be written by you):
+
+    ```css
+    /* Add this at the bottom of styles.css */
     @media (min-width: 600px) {
-        body {
-            padding: 40px;
-        }
-
-        header,
-        footer {
-            padding: 20px 0;
-        }
-
-        main {
-            margin: 40px 0;
-        }
-
-        .intro img {
-            width: 80%;
-            margin: 20px auto;
-        }
-
-        .cards {
-            justify-content: space-around;
-        }
-
-        .card {
-            flex: 0 0 30%;
-        }
+        /* Your changes go here */
     }
     ```
 
-3. **Review and Test:**
-    - Open `index.html` in your browser.
-    - Resize the window to test the responsiveness.
-    - Ensure all styles are applied correctly and elements adapt to different screen sizes.
+4. **Review and Test:**
+    - Open your `index.html` file in a browser.
+    - Resize the window and verify your responsive changes work correctly.
 
-4. **Commit and Push Your Changes:**
-    - Save your work and push your files to your version control system (e.g., GitHub).
+5. **Commit and Push Your Changes:**
+    - Save all files and push to your version control system.
 
 ## Outcome
 
-You should have a well-structured, responsive webpage that looks great on both desktop and mobile devices. It should include a header, navigation, an intro section, a responsive card layout, and a footer.
+You will have built a responsive webpage that adapts gracefully across different screen sizes, using only HTML and CSS. This exercise reinforces how layout and style should adjust depending on viewport width.
