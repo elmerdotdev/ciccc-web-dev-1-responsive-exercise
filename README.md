@@ -157,4 +157,4 @@
     - Open your `index.html` file in a browser.
     - Resize the window and verify your responsive changes work correctly.
 
-5. **Commit and Push Your Changes:**
+5. **Commit and Push Your Changes**
