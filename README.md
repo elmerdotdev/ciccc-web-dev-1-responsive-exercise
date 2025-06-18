@@ -32,7 +32,7 @@
             <section class="intro">
                 <h2>Welcome to My Website</h2>
                 <p>This is a simple responsive webpage. Resize the browser window to see the effect!</p>
-                <img src="https://via.placeholder.com/800x400" alt="Sample Image">
+                <img src="https://placehold.co/800x400.png" alt="Sample Image">
             </section>
             <section class="cards">
                 <div class="card">
